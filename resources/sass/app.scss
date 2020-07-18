@@ -20,8 +20,14 @@ $fa-font-path:        "../webfonts";
 
 //************ This is my own style code
 
-//=====>  this style for active link with vue js
+//=====>  this style for active link in vue router js
+
 .router-link-exact-active{
   background-color: #3f51b5 ;
+  color : #fff !important;
+}
+
+.router-link-exact-active:focus{
+  background-color:#3f51b5 !important;
   color : #fff !important;
 }
